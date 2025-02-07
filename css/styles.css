@@ -11330,10 +11330,21 @@ li {
   font-size: 20px;
 
 }
-.contact-email{
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+  gap: 10px; /* Space between items */
+
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 5%;
   text-align: center;
-  width:32%;
-  height:auto;
-  background-color: blue;
-  
+  border: 1% solid #ddd;
+  color:black;
+}
+
+.contact-title{
+  text-align: center;
 }
